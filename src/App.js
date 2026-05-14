@@ -1,4 +1,7 @@
-function Square({ value }) {
+import { useState } from 'react';
+
+function Square() {
+  const [value, setValue] = useState('g');
   function handleClick() {
     console.log("clicked!");
   }
